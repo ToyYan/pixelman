@@ -1,0 +1,49 @@
+{
+  "name": "pixelman",
+  "version": "0.0.3",
+  "description": "A program for managing and distributing UE4 pixel streaming signaling servers and distributed rendering instances, supporting real-time start and stop of UE4 rendering instances, supporting distributed deployment of rendering instances, and unified scheduling and allocation by the manage module.",
+  "bin": {
+    "pixelman": "main.js"
+  },
+  "scripts": {
+    "start": "tsx ./src/manage.ts",
+    "start:render": "tsx ./src/render.ts",
+    "start:manage": "tsx ./src/manage.ts",
+    "build": "webpack",
+    "prepack": "npm run build",
+    "release": "npx release-it"
+  },
+  "author": "yscnysj <yscnysj@gmail.com> (https://github.com/ToyYan)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "configstore": "^6.0.0",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "winston": "^3.8.2",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/configstore": "^6.0.0",
+    "@types/cookie": "^0.5.1",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "^4.17.17",
+    "@types/ws": "^8.5.4",
+    "ts-loader": "^9.4.2",
+    "tsx": "^3.12.7",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "keywords": [
+    "pixelman",
+    "Pixel Streaming",
+    "pixelstreaming",
+    "pixel-streaming"
+  ],
+  "main": "main.js"
+}
