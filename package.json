@@ -14,7 +14,7 @@
     "release": "npx release-it"
   },
   "author": "yscnysj <yscnysj@gmail.com> (https://github.com/ToyYan)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^10.0.1",
     "configstore": "^6.0.0",
@@ -45,5 +45,13 @@
     "pixelstreaming",
     "pixel-streaming"
   ],
-  "main": "main.js"
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToyYan/pixelman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ToyYan/pixelman/issues"
+  },
+  "homepage": "https://github.com/ToyYan/pixelman#readme"
 }
