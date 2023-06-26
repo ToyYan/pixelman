@@ -1,6 +1,6 @@
 {
   "name": "pixelman",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A program for managing and distributing unreal engine pixel streaming signaling servers and distributed rendering instances, supporting real-time start and stop of unreal engine rendering instances, supporting distributed deployment of rendering instances, and unified scheduling and allocation by the manage module.",
   "bin": {
     "pixelman": "main.js"
