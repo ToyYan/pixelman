@@ -1,5 +1,5 @@
 # pixelman
-虚幻引擎(unreal engine)像素流信令服务器和分布式管理的的程序，支持实时启停UE4渲染实例，支持渲染实例分布式部署，由manage模块统一调度分配。
+虚幻引擎(unreal engine)像素流信令服务器和分布式管理的的程序，支持实时启停unreal engine渲染实例，支持渲染实例分布式部署，由manage模块统一调度分配。
 
 <div align="center">
 

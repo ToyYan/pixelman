@@ -1,5 +1,5 @@
 # pixelman
-A program for managing and distributing UE4 pixel streaming signaling servers and distributed rendering instances, supporting real-time start and stop of UE4 rendering instances, supporting distributed deployment of rendering instances, and unified scheduling and allocation by the manage module.
+A program for managing and distributing unreal engine pixel streaming signaling servers and distributed rendering instances, supporting real-time start and stop of unreal engine rendering instances, supporting distributed deployment of rendering instances, and unified scheduling and allocation by the manage module.
 
 <div align="center">
 
